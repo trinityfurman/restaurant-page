@@ -1,0 +1,22 @@
+body {
+    background-color: #004928;
+    color: rgb(175, 185, 177);
+    font-family: 'Roboto Slab', serif;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+#content img {
+    width: 400px;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: 'Merienda One', cursive;
+}
