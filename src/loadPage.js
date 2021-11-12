@@ -28,7 +28,7 @@ const loadPage = () => {
 
     // Create body & contents
     const body = document.createElement('div');
-    body.classList.add('body');
+    body.classList.add('mainBody');
 
     
     container.appendChild(nav);

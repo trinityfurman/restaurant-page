@@ -1,5 +1,5 @@
 const loadContact = () => {
-    const container = document.querySelector(".body");
+    const container = document.querySelector(".mainBody");
 
     const location = document.createElement('div');
     location.textContent = "Come find us in Hierarch Square in downtown Novigrad.";

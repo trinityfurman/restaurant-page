@@ -11,7 +11,7 @@ const menuButton = document.querySelector("#menuLink");
 const homeButton = document.querySelector("#homeLink");
 const contactButton = document.querySelector("#contactLink");
 
-const body = document.querySelector(".body");
+const body = document.querySelector(".mainBody");
 
 
 menuButton.addEventListener('click', () => {

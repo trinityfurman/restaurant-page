@@ -1,9 +1,10 @@
 body {
     background-color: #004928;
-    color: rgb(175, 185, 177);
     font-family: 'Roboto Slab', serif;
     padding: 0;
     margin: 0;
+    background: url("../src/images/main.jpg") no-repeat center fixed;  
+    background-size: cover;
 }
 
 #content {
@@ -14,12 +15,18 @@ body {
     text-align: center;
 }
 
-.body {
+.mainBody {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 30px;
+    margin-top: 50px;
     text-align: center;
     align-items: center;
+    width: 100%;
+    background-color: #a3b18a;
+    color:#004928;
+    opacity: 0.9;
 }
 
 .navigation {
@@ -44,10 +51,33 @@ body {
 }
 
 #content img {
-    width: 400px;
+    width: 100%;
 }
 
 .heading {
     font-size: 40px;
     font-family: 'Merienda One', cursive;
+    color: #3A0012;
+    padding: 20px;
+}
+
+#teaHeading {
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: #00351d;
+
+}
+
+.teaHeaders {
+    font-size: 20px;
+    font-family: 'Merienda One', cursive;
+    padding: 10px;
+    color: #3A0012;
+
+}
+
+#hoursHeading {
+    font-size: 20px;
+    font-family: 'Merienda One', cursive;
+    color: #3A0012;
 }
